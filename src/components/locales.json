@@ -1,0 +1,22 @@
+{
+  "en": { "emoji": "🇺🇸", "currency": ["USD", "GBP", "AUD", "NZD"] },
+  "de": { "emoji": "🇩🇪", "currency": "EUR" },
+  "cn": { "emoji": "🇨🇳", "currency": "CNY" },
+  "ar": { "emoji": "🇸🇦", "currency": "SAR" },
+  "dk": { "emoji": "🇩🇰", "currency": "DKK" },
+  "es": { "emoji": "🇪🇸", "currency": "EUR" },
+  "fi": { "emoji": "🇫🇮", "currency": "EUR" },
+  "fr": { "emoji": "🇫🇷", "currency": "EUR" },
+  "it": { "emoji": "🇮🇹", "currency": "EUR" },
+  "jp": { "emoji": "🇯🇵", "currency": "JPY" },
+  "kr": { "emoji": "🇰🇷", "currency": "KRW" },
+  "nl": { "emoji": "🇳🇱", "currency": "EUR" },
+  "no": { "emoji": "🇳🇴", "currency": "NOK" },
+  "pl": { "emoji": "🇵🇱", "currency": "PLN" },
+  "pt": { "emoji": "🇵🇹", "currency": "EUR" },
+  "ru": { "emoji": "🇷🇺", "currency": "RUB" },
+  "se": { "emoji": "🇸🇪", "currency": "SEK" },
+  "th": { "emoji": "🇹🇭", "currency": "THB" },
+  "vn": { "emoji": "🇻🇳", "currency": "VND" },
+  "tr": { "emoji": "🇹🇷", "currency": "TRY" }
+}

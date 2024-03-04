@@ -1,0 +1,54 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@keyframes flip-eyes {
+  0%,
+  50% {
+    transform: scaleX(1); /* Original state */
+  }
+  50.00%,
+  100% {
+    transform: scaleX(-1); /* Mirrored state */
+  }
+}
+
+.animate-eyes {
+  display: inline-block;
+  animation: flip-eyes 3s infinite steps(1);
+}
+
+@layer components {
+  .border-0x5 {
+    border-width: 0.5px;
+  }
+}
+
+.bg-primary {
+  @apply bg-light-0 dark:bg-dark-0;
+}
+
+.bg-secondary {
+  @apply bg-light-100 dark:bg-dark-100;
+}
+
+.text-primary {
+  @apply text-dark-0 dark:text-light-0;
+}
+
+.text-secondary {
+  @apply text-dark-300 dark:text-light-300;
+}
+
+.text-color {
+  @apply text-purple-600 dark:text-purple-600;
+}
+
+.border-primary {
+  @apply  border-dark-500 dark:border-light-500 border-0x5
+}
+
+.bg-opacity {
+  dark:opacity-95 opacity-95
+}
+
